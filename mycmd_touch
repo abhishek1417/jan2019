@@ -1,0 +1,18 @@
+#!/usr/bin/python2
+
+import sys
+import os
+
+file_name=sys.argv[1:]
+
+for i in file_name:
+	os.mkdir(i)
+
+
+
+
+'''
+for i in file_name:
+	f=open(i,'w')
+	f.close()
+'''

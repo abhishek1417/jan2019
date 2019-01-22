@@ -1,0 +1,13 @@
+#!/usr/bin/python2
+
+import sys
+import os
+
+file_name=sys.argv[1:]
+for i in file_name:
+	f=open(i,'r')
+	if f.mode == 'r':
+    		contents =f.read()
+    		print (contents)
+
+
